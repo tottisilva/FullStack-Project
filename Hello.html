@@ -8,14 +8,26 @@
 </head>
 <body>
 <nav>
-  <ul class="topnav">
+  <ul class="topnav  responsive" id="dropClick">
     <li><a href="#home">Home</a></li>
     <li><a href="#news">News</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#about">About</a></li>
     <li class="topnav-rigth"><a href="#signUP">Sign Up</a></li>
     <li class="topnav-rigth"><a href="#signIN">Sign IN</a></li>
+    <li class="dropIcon"><a href="javascrip:void(0);" onclick="dropClick()">&#9779;</a></li>
   </ul>
 </nav>
+<script>
+function dropdownMenu(){
+  var x = document.getElementById("dropClick");
+  if (x.className === "topnav"){
+    x.className += " responsive";
+    /*change topnave to topnav.resposive */
+  } else {
+    x.className = "topnav"
+  }
+}
+</script>
 </body>
 </html>
