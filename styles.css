@@ -55,6 +55,12 @@ body {
 .col-12 {
   width: 100%;
 }
+.leftsidecall {
+  margin-left: 20%;
+}
+.rigthcol {
+  margin-right: 20%;
+}
 
 /* nav bar */
 
@@ -115,6 +121,15 @@ input[type="text"] {
   width: 430px;
   min-width: 100px;
   padding: 7px;
+  border-radius: 7px;
+}
+div.leftsidecall,
+div.rigthcol {
+  margin: 15px;
+}
+div.rigthcol {
+  float: right;
+  margin-top: 15px;
 }
 
 /*Mobile*/
@@ -141,5 +156,24 @@ input[type="text"] {
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
+  }
+
+  .col-6 {
+    width: 100%;
+    margin: 0;
+  }
+  div.leftsidecall,
+  div.rigthcol {
+    margin: 15px;
+    align-items: center;
+  }
+  input[type="text"] {
+    width: 300px;
+  }
+  .videoContainer iframe {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
   }
 }
