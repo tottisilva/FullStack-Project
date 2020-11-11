@@ -185,6 +185,25 @@ div.icon {
   height: 100%;
 }
 
+footer.footsy {
+  background-color: #666666;
+  padding-left: 15%;
+}
+footer.footsy h1 {
+  color: #fff;
+  font-size: 32px;
+}
+footer.footsy ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0%;
+}
+footer.footsy ul li {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.3;
+}
+
 /*Mobile*/
 @media screen and (max-width: 680px) {
   ul.topnav li:not(:nth-child(1)) {
@@ -219,6 +238,10 @@ div.icon {
   .col-5 {
     width: 100%;
     margin: 0;
+  }
+  div.mobileTest {
+    width: 50%;
+    display: block;
   }
   div.box {
     padding: 6px;
