@@ -1,0 +1,43 @@
+.singIn-body {
+  background-color: #03ad7a;
+}
+.container.singIn-container {
+  margin-top: 8%;
+}
+div.col-md-8 {
+  margin: auto;
+}
+.card.singIn-card {
+  padding: 40px 0 20px;
+  background-color: #f4f4f4;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+img.singIn-image {
+  padding: 0 2rem 2rem;
+  margin: auto;
+  display: block;
+  width: 65%;
+}
+form.formSingIn {
+  max-width: 350px;
+  margin: auto;
+}
+button.SingIn-btn {
+  color: #ffffff;
+  background-color: #03ad7a;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+label.form-check-label {
+  margin: auto;
+  align-items: center;
+}
+a.Create-New-Acount {
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+}
