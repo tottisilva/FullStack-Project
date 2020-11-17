@@ -1,0 +1,27 @@
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+.sectionLigth {
+  background-color: #ecee;
+  padding: 2em;
+}
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2rem;
+}
+img.footerImg {
+  padding: 10px;
+}
+img.socialMediaIcons {
+  padding: 25px;
+  margin: auto;
+  margin-top: auto;
+}
+p.footerMensage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
